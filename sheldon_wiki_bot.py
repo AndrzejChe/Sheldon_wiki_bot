@@ -2,7 +2,7 @@
 import re, telebot, wikipedia
 from telebot import types
 # Создаем экземпляр бота
-bot = telebot.TeleBot('5467083977:AAEMZ_gsprWyH0kFES4gJ8utYrgUSlpgSsI')
+bot = telebot.TeleBot('')
 # Устанавливаем русский язык в Wikipedia
 wikipedia.set_lang("ru")
 # Чистим текст статьи в Wikipedia и ограничиваем его тысячей символов
